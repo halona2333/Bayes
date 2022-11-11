@@ -1,8 +1,14 @@
 # Email classification based on Bayesian analysis
 Group Members: Yuhuan Ma, XXX and XXX
 ### Introduction
-Spam email, or junk email, refers to unsolicited messages sent in bulk. This notorious email threat got its name from Spam lunch meat, which has a reputation of being ubiquitous, repetitive and unavoidable. If you have an email account, we are sure that you have seen emails being categorised into different buckets and automatically being marked important, spam, promotions, etc. It's wonderful to see machines being so smart and doing the work for us.
+If you have an email account, we are sure that you have seen emails being categorised into different buckets and automatically being marked important, spam, promotions, etc. It's wonderful to see machines being so smart and doing the work for us. In other words, spam email, or junk email, refers to unsolicited messages sent in bulk, which has a reputation of being ubiquitous, repetitive and unavoidable. 
 ### Data Collection
-we will collect datasets from open source Eg. https://github.com/shijing888/BayesSpam https://archive.ics.uci.edu/ml/machine-learning-databases/00228/.
+We will collect datasets from open source 
+Eg. 
+https://github.com/shijing888/BayesSpam
+https://archive.ics.uci.edu/ml/machine-learning-databases/00228/. 
+And we try to collect more datasets from Internet.
 ### Method
-Naive Bayes is a probabilistic algorithm based on the Bayes Theorem used for email spam filtering in data analytics.
+Like Naive Bayes, other classifier algorithms like Support Vector Machine, or Neural Network also get the job done! We choose Naive Bayes as learning algorithm used  learning algorithm. Naive Bayes is a probabilistic algorithm based on the Bayes Theorem used for email spam filtering in data analytics.
+### Performance
+First, we use unused parts of the dataset as our test set. Then, we use some of the e-mails in our account as a test set.
