@@ -11,7 +11,7 @@ And we try to collect more datasets from Internet.
 ### Method
 Like Naive Bayes, other classifier algorithms like Support Vector Machine, or Neural Network also get the job done! We choose Naive Bayes as learning algorithm used  learning algorithm. Naive Bayes is a probabilistic algorithm based on the Bayes Theorem used for email spam filtering in data analytics. In this situation, the formula can be written as:
 
-![image](https://github.com/halona2333/Bayes/blob/main/Images/bayes1.svghttps://github.com/halona2333/Bayes/blob/main/Images/bayes1.png)
+![image](https://github.com/halona2333/Bayes/blob/main/Images/bayes1.png)
 
 For instance, the probability of the word “FREE” appears in an email is 20%, the probability of an email being a spam is 25%, and the probability of a junk email has the word “FREE” is 45%. Then, when an email contains the word “FREE” was received by a user than the system will calculate the probability of this email is a spam according to the Bayes’ theorem is 56%. At the same time, the cost of classifying a legitimate email into spam is far larger than classifying a junk email into legitimate. So the system might not ignore this email. However, as the amount of data becomes larger, the accuracy will also be improved. According to another study, only when the probability is as high as 99%, they will make the decision and filter this email.
 ### Performance
