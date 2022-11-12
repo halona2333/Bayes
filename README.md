@@ -1,5 +1,5 @@
 # Email classification based on Bayesian analysis
-Group Members: Yuhuan Ma, XXX and XXX
+Group Members: Yuhuan Ma, Yifei He and Ziqing Tang
 ### Introduction
 If you have an email account, we are sure that you have seen emails being categorised into different buckets and automatically being marked important, spam, promotions, etc. It's wonderful to see machines being so smart and doing the work for us. In other words, spam email, or junk email, refers to unsolicited messages sent in bulk, which has a reputation of being ubiquitous, repetitive and unavoidable. In this project, we will understand briefly about the Naive Bayes Algorithm and try to label spam email by algorithm.
 ### Data Collection
