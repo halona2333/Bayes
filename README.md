@@ -5,6 +5,7 @@ If you have an email account, we are sure that you have seen emails being catego
 ### Data Collection
 We will collect datasets from open source 
 Eg. 
+https://www.kaggle.com/code/syamkakarla/spam-mail-classifier
 https://github.com/shijing888/BayesSpam
 https://archive.ics.uci.edu/ml/machine-learning-databases/00228/. 
 And we try to collect more datasets from Internet.
