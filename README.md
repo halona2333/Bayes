@@ -17,5 +17,11 @@ Like Naive Bayes, other classifier algorithms like Support Vector Machine, or Ne
 For instance, the probability of the word “FREE” appears in an email is 20%, the probability of an email being a spam is 25%, and the probability of a junk email has the word “FREE” is 45%. Then, when an email contains the word “FREE” was received by a user than the system will calculate the probability of this email is a spam according to the Bayes’ theorem is 56%. At the same time, the cost of classifying a legitimate email into spam is far larger than classifying a junk email into legitimate. So the system might not ignore this email. However, as the amount of data becomes larger, the accuracy will also be improved. According to another study, only when the probability is as high as 99%, they will make the decision and filter this email.
 
 However, this formula only indicates the probability of an email being a spam based on a single word appears in the email. Many other indicators, like the domain type of the sender (.edu or .org), or whether it has an attachment or not, should also be taken into consideration in real email spam filtering. We should be carefully to choose features for  email spam filtering.
+
+We use build-in implementation in our project to compare performance, Some information of this built-in implementation can be find here.
+
+https://scikit-learn.org/stable/modules/naive_bayes.html
+
 ### Performance
-First, we use unused parts of the dataset as our test set. Then, we use some of the e-mails in our account as a test set.
+We choose three as indicators to measure your performance of the task, including accuracy, precision[(spam and label as spam)/(labeled as spam)] and recall rate[(spam and label as spam)/(all spam)].
+
