@@ -5,16 +5,20 @@ Group Members: Yuhuan Ma, Yifei He and Ziqing Tang
 If you have an email account, we are sure that you have seen emails being categorised into different buckets and automatically being marked important, spam, promotions, etc. It's wonderful to see machines being so smart and doing the work for us. In other words, spam email, or junk email, refers to unsolicited messages sent in bulk, which has a reputation of being ubiquitous, repetitive and unavoidable. In this project, we will understand briefly about the Naive Bayes Algorithm and try to label spam email by algorithm.
 
 ### 2. Data Collection
-We will collect datasets from open source. And we try to collect more datasets from Internet. 
+We will collect datasets from open source. And we try to collect more datasets from Internet. Some online resources for datasets
+• https://www.kaggle.com/datasets
+• https://archive.ics.uci.edu/ml/datasets.php
+• https://www.csie.ntu.edu.tw/˜cjlin/libsvmtools/datasets/
+• https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
 
-Eg.
+We find some datasets such as following:
 
 English Spam Dataset
-  * [Spam Mail 📧 Classifier](https://www.kaggle.com/code/syamkakarla/spam-mail-classifier)
-  * [smsspamcollection](https://archive.ics.uci.edu/ml/machine-learning-databases/00228/)
+* [Spam Mail 📧 Classifier](https://www.kaggle.com/code/syamkakarla/spam-mail-classifier)
+* [smsspamcollection](https://archive.ics.uci.edu/ml/machine-learning-databases/00228/)
 
 Chinese Spam Dataset
-  * [BayesSpam](https://github.com/shijing888/BayesSpam)
+ * [BayesSpam](https://github.com/shijing888/BayesSpam)
 
 
 ### 3. Method
