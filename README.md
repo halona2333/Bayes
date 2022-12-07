@@ -1,13 +1,18 @@
 # Email classification based on Bayesian analysis
 Group Members: Yuhuan Ma, Yifei He and Ziqing Tang
-### Introduction
+
+@[TOC]
+### 1. Introduction
 If you have an email account, we are sure that you have seen emails being categorised into different buckets and automatically being marked important, spam, promotions, etc. It's wonderful to see machines being so smart and doing the work for us. In other words, spam email, or junk email, refers to unsolicited messages sent in bulk, which has a reputation of being ubiquitous, repetitive and unavoidable. In this project, we will understand briefly about the Naive Bayes Algorithm and try to label spam email by algorithm.
 ### Data Collection
 We will collect datasets from open source 
 Eg. 
-https://www.kaggle.com/code/syamkakarla/spam-mail-classifier
-https://github.com/shijing888/BayesSpam
-https://archive.ics.uci.edu/ml/machine-learning-databases/00228/. 
+English Spam Dataset
+  https://www.kaggle.com/code/syamkakarla/spam-mail-classifier
+  https://archive.ics.uci.edu/ml/machine-learning-databases/00228/
+Chinese Spam Dataset
+  https://github.com/shijing888/BayesSpam
+
 And we try to collect more datasets from Internet.
 ### Method
 Like Naive Bayes, other classifier algorithms like Support Vector Machine, or Neural Network also get the job done! We choose Naive Bayes as learning algorithm used  learning algorithm. Naive Bayes is a probabilistic algorithm based on the Bayes Theorem used for email spam filtering in data analytics. In this situation, the formula can be written as:
