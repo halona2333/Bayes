@@ -6,10 +6,10 @@ If you have an email account, we are sure that you have seen emails being catego
 
 ### 2. Data Collection
 We will collect datasets from open source. And we try to collect more datasets from Internet. Some online resources for datasets
-• https://www.kaggle.com/datasets
-• https://archive.ics.uci.edu/ml/datasets.php
-• https://www.csie.ntu.edu.tw/˜cjlin/libsvmtools/datasets/
-• https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
+*  https://www.kaggle.com/datasets
+*  https://archive.ics.uci.edu/ml/datasets.php
+*  https://www.csie.ntu.edu.tw/˜cjlin/libsvmtools/datasets/
+*  https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
 
 We find some datasets such as following:
 
