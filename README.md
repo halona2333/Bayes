@@ -8,10 +8,10 @@ If you have an email account, we are sure that you have seen emails being catego
 We will collect datasets from open source 
 Eg. 
 English Spam Dataset
-  https://www.kaggle.com/code/syamkakarla/spam-mail-classifier
-  https://archive.ics.uci.edu/ml/machine-learning-databases/00228/
+  [Spam Mail 📧 Classifier]https://www.kaggle.com/code/syamkakarla/spam-mail-classifier
+  [smsspamcollection]https://archive.ics.uci.edu/ml/machine-learning-databases/00228/
 Chinese Spam Dataset
-  https://github.com/shijing888/BayesSpam
+  [BayesSpam]]https://github.com/shijing888/BayesSpam
 
 And we try to collect more datasets from Internet.
 ### Method
