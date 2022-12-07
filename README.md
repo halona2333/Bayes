@@ -1,7 +1,6 @@
 # Email classification based on Bayesian analysis
 Group Members: Yuhuan Ma, Yifei He and Ziqing Tang
 
-@[TOC]
 ### 1. Introduction
 If you have an email account, we are sure that you have seen emails being categorised into different buckets and automatically being marked important, spam, promotions, etc. It's wonderful to see machines being so smart and doing the work for us. In other words, spam email, or junk email, refers to unsolicited messages sent in bulk, which has a reputation of being ubiquitous, repetitive and unavoidable. In this project, we will understand briefly about the Naive Bayes Algorithm and try to label spam email by algorithm.
 
@@ -11,14 +10,11 @@ We will collect datasets from open source. And we try to collect more datasets f
 Eg.
 
 English Spam Dataset
+  * [Spam Mail 📧 Classifier](https://www.kaggle.com/code/syamkakarla/spam-mail-classifier)
+  * [smsspamcollection](https://archive.ics.uci.edu/ml/machine-learning-databases/00228/)
 
-  [Spam Mail 📧 Classifier](https://www.kaggle.com/code/syamkakarla/spam-mail-classifier)
-  
-  [smsspamcollection](https://archive.ics.uci.edu/ml/machine-learning-databases/00228/)
-  
 Chinese Spam Dataset
-
-  [BayesSpam](https://github.com/shijing888/BayesSpam)
+  * [BayesSpam](https://github.com/shijing888/BayesSpam)
 
 
 ### 3. Method
@@ -30,10 +26,20 @@ For instance, the probability of the word “FREE” appears in an email is 20%,
 
 However, this formula only indicates the probability of an email being a spam based on a single word appears in the email. Many other indicators, like the domain type of the sender (.edu or .org), or whether it has an attachment or not, should also be taken into consideration in real email spam filtering. We should be carefully to choose features for  email spam filtering.
 
-We use build-in implementation in our project to compare performance, Some information of this built-in implementation can be find here.
+We use build-in implementation in our project to compare performance, Some information of this built-in implementation can be find here ([naive_bayes]https://scikit-learn.org/stable/modules/naive_bayes.html).
 
-https://scikit-learn.org/stable/modules/naive_bayes.html
+
 
 ### Performance
-We choose three as indicators to measure your performance of the task, including accuracy, precision[(spam and label as spam)/(labeled as spam)] and recall rate[(spam and label as spam)/(all spam)].
+We choose three as indicators to measure your performance of the task, including accuracy, precision [(spam and label as spam)/(labeled as spam)] and recall rate [(spam and label as spam)/(all spam)].
+
+Three built-in implementation performace as following in Dataset 1([Spam Mail 📧 Classifier](https://www.kaggle.com/code/syamkakarla/spam-mail-classifier)).
+* BernoulliNB():
+accuracy: 0.9101, precision: 0.8632, recall: 0.8200
+* MultinomialNB():
+accuracy: 0.9507, precision: 0.8807, recall: 0.9600
+* ComplementNB():
+accuracy: 0.9527, precision: 0.8815, recall: 0.9667
+* Our methods:
+accuracy 0.9353, precision: 0.8416, recall: 0.9567
 
